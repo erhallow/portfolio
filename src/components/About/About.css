@@ -1,0 +1,99 @@
+.bg-about {
+  background-color: #163b44;
+  min-height: 100vh;
+  height: auto;
+}
+
+.extra-pad {
+  padding-top: 60px;
+}
+
+.paragraphtext a:hover {
+  color: #24bbe0;
+}
+
+.smallimg {
+  max-width: 60%;
+  height: auto;
+}
+
+#technology .span {
+  min-height: 25px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.icon-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.83);
+  color: #163b44;
+  visibility: hidden;
+  opacity: 0;
+  transition: ease-in 0.3s;
+}
+
+.icon-wrap:hover .icon-description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.large-icon {
+  font-size: 4em;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.4rem;
+}
+
+@media (min-width: 451px) and (max-width: 499px) {
+  .smallimg {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 769px) {
+  .smallimg {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 985px) {
+  .smallimg {
+    max-width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 349px) {
+  #technology .icon-description {
+    font-size: 0.72em;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.4rem;
+  }
+  .smallimg {
+    max-width: 100%;
+    height: auto;
+  }
+}

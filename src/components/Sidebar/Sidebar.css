@@ -1,0 +1,67 @@
+.sidebar {
+  height: 100%;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar a:hover,
+.sidebar a:active {
+  color: #32889d;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.resizeIcon {
+  font-size: 2em;
+}
+
+.img50 {
+  max-width: 40%;
+  height: auto;
+}
+
+@media (min-width: 769px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.copy-wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.copy-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(197, 197, 197, 0.95);
+  color: #32889d;
+  visibility: hidden;
+  opacity: 0;
+  transition: ease-in 0.3s;
+}
+
+.copy-wrap:hover .copy-description {
+  visibility: visible;
+  opacity: 1;
+}

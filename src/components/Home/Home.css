@@ -1,0 +1,65 @@
+header {
+  height: 100vh;
+  background-image: url('./chicago.jpg');
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+.clear-text {
+  background-color: white;
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+.img-res-1 {
+  max-width: 33%;
+  height: auto;
+}
+
+.toppadding {
+  padding-top: 200px;
+}
+
+@media (max-width: 769px) {
+  .removeimg {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .extramargin {
+    margin-top: 100px;
+  }
+}
