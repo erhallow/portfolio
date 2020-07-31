@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ccaae508.chunk.css",
+    "main.js": "/static/js/main.36a5c133.chunk.js",
+    "main.js.map": "/static/js/main.36a5c133.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e89298f0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e89298f0.js.map",
+    "static/js/2.2418fcf7.chunk.js": "/static/js/2.2418fcf7.chunk.js",
+    "static/js/2.2418fcf7.chunk.js.map": "/static/js/2.2418fcf7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9c04c75076580b06a556ece04eb7e9b7.js": "/precache-manifest.9c04c75076580b06a556ece04eb7e9b7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ccaae508.chunk.css.map": "/static/css/main.ccaae508.chunk.css.map",
+    "static/js/2.2418fcf7.chunk.js.LICENSE.txt": "/static/js/2.2418fcf7.chunk.js.LICENSE.txt",
+    "static/media/article1.png": "/static/media/article1.3af076c3.png",
+    "static/media/article2.png": "/static/media/article2.636b82aa.png",
+    "static/media/bears.jpg": "/static/media/bears.9f943ed3.jpg",
+    "static/media/Home.css": "/static/media/chicago.e5f88aaf.jpg",
+    "static/media/frisbee.jpg": "/static/media/frisbee.5e05bd06.jpg",
+    "static/media/intro.jpg": "/static/media/intro.6a1407bd.jpg",
+    "static/media/poker.jpg": "/static/media/poker.0cf706de.jpg",
+    "static/media/sudoku.png": "/static/media/sudoku.b3a3f4b4.png",
+    "static/media/top10crypto.png": "/static/media/top10crypto.a65c2bc9.png",
+    "static/media/walk.jpg": "/static/media/walk.b656a361.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e89298f0.js",
+    "static/js/2.2418fcf7.chunk.js",
+    "static/css/main.ccaae508.chunk.css",
+    "static/js/main.36a5c133.chunk.js"
+  ]
+}
