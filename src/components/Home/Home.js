@@ -6,7 +6,7 @@ import './Home.css';
 export class Home extends Component {
   static defaultProps = {
     title: 'Eric Hallow',
-    heading: 'I am a Full-Stack Developer from Chicago',
+    heading: 'Full-Stack Developer from Chicago',
   };
 
   static propTypes = {
