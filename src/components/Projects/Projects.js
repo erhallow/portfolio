@@ -60,15 +60,15 @@ export class Projects extends Component {
                       rel='noopener noreferrer'
                       className='projects-text'
                     >
-                      Code
+                      Github
                     </a>
                     <a
-                      href='https://dev.to/erhallow24'
+                      href='https://top10cryptovol.com'
                       target='_blank'
                       rel='noopener noreferrer'
                       className='float-right projects-text'
                     >
-                      Blog
+                      Live Site
                     </a>
                   </li>
                 </ul>
@@ -93,7 +93,7 @@ export class Projects extends Component {
               <div className='card-text'>
                 <ul className='list-group list-group-flush'>
                   <li className='list-group-item text-center projects-text'>
-                    Utilize lifecycle methods to build puzzle
+                    <strong>Work in progress - Coming Soon!</strong>
                   </li>
                   <li className='list-group-item text-center removeIcon'>
                     <i className='fab fa-html5 p-3 sizeIcon'></i>
